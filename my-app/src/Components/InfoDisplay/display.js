@@ -45,7 +45,7 @@ function RestaurantDetails({ restaurant, onBackClick }) {
         </div>
         <p>Address: {restaurant.vicinity}</p>
         <p>Rating: {restaurant.rating}</p>
-        <p>Menu Items:{restaurant.place_id}</p>
+        <p>Menu Items:{/*restaurant.place_id*/}</p>
         <ul className="Menu">
           { (!menuData) ? 
             <p>Loading...</p> :

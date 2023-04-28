@@ -17,7 +17,7 @@
 }
 
 .app-link {
-    font-family: 'Carter One';
+    /*font-family: 'Carter One';*/
     font-size: calc(12px + 2vmin);
     position: absolute;
     height:auto;
@@ -70,4 +70,5 @@ body {
 .sub-title {
     font-weight: bold;
     color: #8776ff;
+    border-bottom: 2px solid black;
 }

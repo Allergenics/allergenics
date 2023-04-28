@@ -41,8 +41,9 @@ h3.restaurant-li:hover {
 }
 
 .Menu {
-  max-width: 45vw;
-  max-height: 50vh;
+  max-width: 60vw;
+  max-height: 40vh;
+  transform: translate(-5%, -5%);
   overflow: auto;
 }
 

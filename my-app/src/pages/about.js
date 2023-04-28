@@ -18,7 +18,7 @@ const AboutUs = () => {
             >
             Track our progress!
             </a>
-            </div>
+        </div>
         <div className="info-container">
             <div className="line"/>
                 <div>
@@ -59,9 +59,17 @@ const AboutUs = () => {
                         a restaurant easier for those struggling with food allergies/dietary restrictions.
                     </p>
                 </div>
+            </div>
+            <h2 className="sub-title">Future website updates:</h2>
+            <ul>
+                <li> - Order Menu Items by Severity</li>
+                <li> - Adjust font scheme across website</li>
+                <li> - Complete automation of backend features</li>
+                <li> - Optimize settings page</li>
+                <li> - Complete color scheming algorithm</li>
+            </ul>
         </div>
-    </div>
-  );
+    );
 };
 
 export default AboutUs;
